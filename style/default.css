@@ -1,0 +1,230 @@
+body, pre, input.명령입력 {
+	font-size: 12pt;
+	/*font-family: fixedsys;*/
+	font-family: fixedsys;
+	/*font-family: "굴림체";*/
+	background-color: #000080;
+	color: white;
+	margin-top: 0;
+}
+
+body {
+	margin: 0;
+}
+
+pre {
+	line-height: 16px;
+}
+
+input.명령입력 {
+	height: 18;
+	margin: 0;
+	padding: 0;	
+	width: 480;
+	border-style: none;
+}
+
+a.제목_현재메뉴:link, a.제목_현재메뉴:visited, 
+a.메뉴:link, a.메뉴:visited,
+a.게시판목록라벨:link, a.게시판목록라벨:visited,
+a.바닥메뉴:link, a.바닥메뉴:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a.제목_현재메뉴:hover, 
+a.메뉴:hover,
+a.게시판목록라벨:hover,
+a.바닥메뉴:hover {
+	background-color: black;
+	position:relative;
+	top:0;
+	left:0;
+	margin:-1;
+	border:1 solid gray;
+	border-right-color: #303030;
+	border-bottom-color: #303030;
+}
+
+font.제목_장식_위_강조 	{ background-color: white;color: #000088;}
+font.제목_장식_위		{ color: #0000FF; }
+font.제목_장식_아래 	{ color: #000000; }
+
+iframe.디버그 {
+	display: none;
+}
+
+div.글내용 {
+	overflow: auto;
+	width: 640;
+	height: 320;
+	padding-left: 8;			
+}
+
+div.글내용출력 {
+	width: 790;
+	padding-left: 8;
+}
+
+div.바닥 {
+	color: white;
+}
+
+/**************************
+ 글쓰기 화면
+**************************/
+div.글쓰기폼 {
+	/*width: 640;*/
+	height: 430;
+	position: relative;
+}
+
+span.이름입력, span.파일입력, span.EMAIL입력,
+span.HOME입력, span.암호입력, span.제목입력,
+span.내용입력, span.입력완료  {
+	position: absolute;
+	padding: 1; 
+	/*
+	background-color: #000033;
+	*/
+	/*
+	border: 1 solid red;
+	*/
+}
+
+span.제목입력 { left:   8; top:   0; }
+span.이름입력 { left:   8; top:  27; }
+span.암호입력 { left: 378; top:  27; }
+span.EMAIL입력{ left:   8; top:  54; }
+span.HOME입력 { left:   8; top:  81; }
+span.내용입력 { left:   8; top: 108; }
+span.파일입력 { left: 358; top: 108; }
+span.입력완료 { left:   8; top: 400; }
+
+label.이름입력, label.파일입력, label.EMAIL입력,
+label.HOME입력, label.암호입력, label.제목입력,
+label.내용입력 {
+	padding: 3;
+	cursor: pointer;
+	height: 24;
+	width: 80;
+	text-align: center;
+}
+
+/* 필수 입력 항목 */
+label.이름입력, label.제목입력, label.암호입력 {
+	color: orange;
+}
+
+input.이름입력, input.파일입력, input.EMAIL입력,
+input.HOME입력, input.암호입력, input.제목입력 {
+	border-style: none;
+	border-bottom-width: 2;
+	border-bottom-style: solid;
+	border-bottom-color: white;
+	color: white;
+	font-family: fixedsys;
+	padding: 1;
+	height: 22;
+	background-color: transparent;
+}
+
+input.EMAIL입력, 
+input.HOME입력, 
+input.제목입력  { width: 540; }
+
+input.이름입력, 
+input.암호입력, { width: 170; }
+input.파일입력  { width: 190; }
+
+textarea.내용입력 {
+	position: absolute;
+	left: 0;
+	top: 27;
+	font-family: fixedsys;
+	padding: 1;
+	width: 620;
+	height: 260;
+	margin: 0;
+	overflow: auto;
+		  
+	border-style: none;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-width: 2;
+	border-bottom-width: 2;
+	border-top-color: white;
+	border-bottom-color: white;
+	color: white;
+	background-color: transparent;
+}
+
+input.입력완료 {
+	width: 620;
+	height: 25;
+}
+
+
+/**************************
+ 글삭제 화면
+**************************/
+div.글삭제폼 {
+	/*width: 640;*/
+	height: 150;
+	padding-left: 5;			
+	position: relative;
+}
+
+span.글삭제암호입력, span.글삭제입력완료 {
+	padding: 1; 
+	background-color: #000033;
+	position: absolute;
+}
+
+span.글삭제암호입력 { left: 200; top: 30; }
+span.글삭제입력완료 { left: 250; top: 80; }
+
+label.글삭제암호입력 {
+	padding: 3;
+	cursor: hand;
+	height: 24;
+	width: 80;
+	text-align: center;
+}
+
+input.글삭제암호입력 {
+	border-width: 1;
+	border-style: solid;
+	font-family: fixedsys;
+	padding: 1;
+	height: 22;
+}
+
+input.글삭제입력완료 {
+	font-family: fixedsys;
+	padding: 1;
+}
+
+
+/*******************
+*  
+********************/
+font.역상 {
+	color: #000080;
+	background-color: white;
+}
+
+div.내용 {
+	width: 640;
+	height: 400;
+	overflow: auto;
+	padding-left: 5;
+}
+
+font.볼록위 	{ color: #0000FF; }
+font.볼록아래	{ color: #000000; }
+font.새글 		{ color: red; }
+font.조회100 	{ color: #00ff00; }
+font.추천10 	{ color: #00ffff; }
+font.조회100추천10
+				{ color: #ffff00; }
