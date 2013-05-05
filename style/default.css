@@ -1,4 +1,3 @@
-
 /*
  * style/default.css
  * atdt01410 - The Web interface mimics virtual terminal environment
@@ -18,11 +17,11 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-body, pre, input.╦М╥иют╥б {
+body, pre, input.О©╫О©╫О©╫О©╫О©╫т╥О©╫ {
 	font-size: 12pt;
 	/*font-family: fixedsys;*/
-	font-family: fixedsys;
-	/*font-family: "╠╪╦╡ц╪";*/
+	font-family: "fixedsys","Й╣╢К╕╪Л╡╢";/*IEЛ²╢Л≥╦Л²≤ К╦▄К²╪Л ╟Л═─ Л≈░Л└°К▐└ Л═∙Л┐│Л╤°К═╔*/
+	/*font-family: "О©╫О©╫О©╫О©╫ц╪";*/
 	background-color: #000080;
 	color: white;
 	margin-top: 0;
@@ -36,26 +35,27 @@ pre {
 	line-height: 16px;
 }
 
-input.╦М╥иют╥б {
+input.О©╫О©╫О©╫О©╫О©╫т╥О©╫ {
 	height: 18;
 	margin: 0;
 	padding: 0;	
 	width: 480;
 	border-style: none;
+	outline-style: none;
 }
 
-a.а╕╦Я_гЖюГ╦ч╢╨:link, a.а╕╦Я_гЖюГ╦ч╢╨:visited, 
-a.╦ч╢╨:link, a.╦ч╢╨:visited,
-a.╟т╫цфг╦Я╥о╤С╨╖:link, a.╟т╫цфг╦Я╥о╤С╨╖:visited,
-a.╧ы╢з╦ч╢╨:link, a.╧ы╢з╦ч╢╨:visited {
+a.О©╫О©╫О©╫О©╫_О©╫О©╫О©╫О©╫О©╫ч╢О©╫:link, a.О©╫О©╫О©╫О©╫_О©╫О©╫О©╫О©╫О©╫ч╢О©╫:visited, 
+a.О©╫ч╢О©╫:link, a.О©╫ч╢О©╫:visited,
+a.О©╫т╫О©╫О©╫г╦О©╫О©╫о╤О©╫О©╫О©╫:link, a.О©╫т╫О©╫О©╫г╦О©╫О©╫о╤О©╫О©╫О©╫:visited,
+a.О©╫ы╢з╦ч╢О©╫:link, a.О©╫ы╢з╦ч╢О©╫:visited {
 	color: white;
 	text-decoration: none;
 }
 
-a.а╕╦Я_гЖюГ╦ч╢╨:hover, 
-a.╦ч╢╨:hover,
-a.╟т╫цфг╦Я╥о╤С╨╖:hover,
-a.╧ы╢з╦ч╢╨:hover {
+a.О©╫О©╫О©╫О©╫_О©╫О©╫О©╫О©╫О©╫ч╢О©╫:hover, 
+a.О©╫ч╢О©╫:hover,
+a.О©╫т╫О©╫О©╫г╦О©╫О©╫о╤О©╫О©╫О©╫:hover,
+a.О©╫ы╢з╦ч╢О©╫:hover {
 	background-color: black;
 	position:relative;
 	top:0;
@@ -66,42 +66,42 @@ a.╧ы╢з╦ч╢╨:hover {
 	border-bottom-color: #303030;
 }
 
-font.а╕╦Я_юЕ╫д_ю╖_╟╜а╤ 	{ background-color: white;color: #000088;}
-font.а╕╦Я_юЕ╫д_ю╖		{ color: #0000FF; }
-font.а╕╦Я_юЕ╫д_╬ф╥║ 	{ color: #000000; }
+font.О©╫О©╫О©╫О©╫_О©╫О©╫О©╫О©╫_О©╫О©╫_О©╫О©╫О©╫О©╫ 	{ background-color: white;color: #000088;}
+font.О©╫О©╫О©╫О©╫_О©╫О©╫О©╫О©╫_О©╫О©╫		{ color: #0000FF; }
+font.О©╫О©╫О©╫О©╫_О©╫О©╫О©╫О©╫_О©╫ф╥О©╫ 	{ color: #000000; }
 
-iframe.╣П╧Ж╠в {
+iframe.О©╫О©╫О©╫О©╫О©╫О©╫ {
 	display: none;
 }
 
-div.╠шЁ╩©К {
+div.О©╫шЁО©╫О©╫О©╫ {
 	overflow: auto;
 	width: 640;
 	height: 320;
 	padding-left: 8;			
 }
 
-div.╠шЁ╩©КцБ╥б {
+div.О©╫шЁО©╫О©╫О©╫О©╫О©╫О©╫О©╫ {
 	width: 790;
 	padding-left: 8;
 }
 
-div.╧ы╢з {
+div.О©╫ы╢О©╫ {
 	color: white;
 }
 
 /**************************
- ╠ш╬╡╠Б х╜╦И
+ О©╫ш╬О©╫О©╫О©╫ х╜О©╫О©╫
 **************************/
-div.╠ш╬╡╠БфШ {
+div.О©╫ш╬О©╫О©╫О©╫О©╫О©╫ {
 	/*width: 640;*/
 	height: 430;
 	position: relative;
 }
 
-span.юл╦╖ют╥б, span.фдюоют╥б, span.EMAILют╥б,
-span.HOMEют╥б, span.╬охёют╥б, span.а╕╦Яют╥б,
-span.Ё╩©Кют╥б, span.ют╥б©о╥А  {
+span.О©╫л╦О©╫О©╫т╥О©╫, span.О©╫О©╫О©╫О©╫О©╫т╥О©╫, span.EMAILО©╫т╥О©╫,
+span.HOMEО©╫т╥О©╫, span.О©╫О©╫хёО©╫т╥О©╫, span.О©╫О©╫О©╫О©╫О©╫т╥О©╫,
+span.О©╫О©╫О©╫О©╫О©╫т╥О©╫, span.О©╫т╥б©о╥О©╫  {
 	position: absolute;
 	padding: 1; 
 	/*
@@ -112,18 +112,18 @@ span.Ё╩©Кют╥б, span.ют╥б©о╥А  {
 	*/
 }
 
-span.а╕╦Яют╥б { left:   8; top:   0; }
-span.юл╦╖ют╥б { left:   8; top:  27; }
-span.╬охёют╥б { left: 378; top:  27; }
-span.EMAILют╥б{ left:   8; top:  54; }
-span.HOMEют╥б { left:   8; top:  81; }
-span.Ё╩©Кют╥б { left:   8; top: 108; }
-span.фдюоют╥б { left: 358; top: 108; }
-span.ют╥б©о╥А { left:   8; top: 400; }
+span.О©╫О©╫О©╫О©╫О©╫т╥О©╫ { left:   8; top:   0; }
+span.О©╫л╦О©╫О©╫т╥О©╫ { left:   8; top:  27; }
+span.О©╫О©╫хёО©╫т╥О©╫ { left: 378; top:  27; }
+span.EMAILО©╫т╥О©╫{ left:   8; top:  54; }
+span.HOMEО©╫т╥О©╫ { left:   8; top:  81; }
+span.О©╫О©╫О©╫О©╫О©╫т╥О©╫ { left:   8; top: 108; }
+span.О©╫О©╫О©╫О©╫О©╫т╥О©╫ { left: 358; top: 108; }
+span.О©╫т╥б©о╥О©╫ { left:   8; top: 400; }
 
-label.юл╦╖ют╥б, label.фдюоют╥б, label.EMAILют╥б,
-label.HOMEют╥б, label.╬охёют╥б, label.а╕╦Яют╥б,
-label.Ё╩©Кют╥б {
+label.О©╫л╦О©╫О©╫т╥О©╫, label.О©╫О©╫О©╫О©╫О©╫т╥О©╫, label.EMAILО©╫т╥О©╫,
+label.HOMEО©╫т╥О©╫, label.О©╫О©╫хёО©╫т╥О©╫, label.О©╫О©╫О©╫О©╫О©╫т╥О©╫,
+label.О©╫О©╫О©╫О©╫О©╫т╥О©╫ {
 	padding: 3;
 	cursor: pointer;
 	height: 24;
@@ -131,13 +131,13 @@ label.Ё╩©Кют╥б {
 	text-align: center;
 }
 
-/* гй╪Ж ют╥б гв╦Я */
-label.юл╦╖ют╥б, label.а╕╦Яют╥б, label.╬охёют╥б {
+/* О©╫й╪О©╫ О©╫т╥О©╫ О©╫в╦О©╫ */
+label.О©╫л╦О©╫О©╫т╥О©╫, label.О©╫О©╫О©╫О©╫О©╫т╥О©╫, label.О©╫О©╫хёО©╫т╥О©╫ {
 	color: orange;
 }
 
-input.юл╦╖ют╥б, input.фдюоют╥б, input.EMAILют╥б,
-input.HOMEют╥б, input.╬охёют╥б, input.а╕╦Яют╥б {
+input.О©╫л╦О©╫О©╫т╥О©╫, input.О©╫О©╫О©╫О©╫О©╫т╥О©╫, input.EMAILО©╫т╥О©╫,
+input.HOMEО©╫т╥О©╫, input.О©╫О©╫хёО©╫т╥О©╫, input.О©╫О©╫О©╫О©╫О©╫т╥О©╫ {
 	border-style: none;
 	border-bottom-width: 2;
 	border-bottom-style: solid;
@@ -149,15 +149,15 @@ input.HOMEют╥б, input.╬охёют╥б, input.а╕╦Яют╥б {
 	background-color: transparent;
 }
 
-input.EMAILют╥б, 
-input.HOMEют╥б, 
-input.а╕╦Яют╥б  { width: 540; }
+input.EMAILО©╫т╥О©╫, 
+input.HOMEО©╫т╥О©╫, 
+input.О©╫О©╫О©╫О©╫О©╫т╥О©╫  { width: 540; }
 
-input.юл╦╖ют╥б, 
-input.╬охёют╥б, { width: 170; }
-input.фдюоют╥б  { width: 190; }
+input.О©╫л╦О©╫О©╫т╥О©╫, 
+input.О©╫О©╫хёО©╫т╥О©╫, { width: 170; }
+input.О©╫О©╫О©╫О©╫О©╫т╥О©╫  { width: 190; }
 
-textarea.Ё╩©Кют╥б {
+textarea.О©╫О©╫О©╫О©╫О©╫т╥О©╫ {
 	position: absolute;
 	left: 0;
 	top: 27;
@@ -179,32 +179,32 @@ textarea.Ё╩©Кют╥б {
 	background-color: transparent;
 }
 
-input.ют╥б©о╥А {
+input.О©╫т╥б©о╥О©╫ {
 	width: 620;
 	height: 25;
 }
 
 
 /**************************
- ╠ш╩Ха╕ х╜╦И
+ О©╫ш╩О©╫О©╫О©╫ х╜О©╫О©╫
 **************************/
-div.╠ш╩Ха╕фШ {
+div.О©╫ш╩О©╫О©╫О©╫О©╫О©╫ {
 	/*width: 640;*/
 	height: 150;
 	padding-left: 5;			
 	position: relative;
 }
 
-span.╠ш╩Ха╕╬охёют╥б, span.╠ш╩Ха╕ют╥б©о╥А {
+span.О©╫ш╩О©╫О©╫О©╫О©╫О©╫хёО©╫т╥О©╫, span.О©╫ш╩О©╫О©╫О©╫О©╫т╥б©о╥О©╫ {
 	padding: 1; 
 	background-color: #000033;
 	position: absolute;
 }
 
-span.╠ш╩Ха╕╬охёют╥б { left: 200; top: 30; }
-span.╠ш╩Ха╕ют╥б©о╥А { left: 250; top: 80; }
+span.О©╫ш╩О©╫О©╫О©╫О©╫О©╫хёО©╫т╥О©╫ { left: 200; top: 30; }
+span.О©╫ш╩О©╫О©╫О©╫О©╫т╥б©о╥О©╫ { left: 250; top: 80; }
 
-label.╠ш╩Ха╕╬охёют╥б {
+label.О©╫ш╩О©╫О©╫О©╫О©╫О©╫хёО©╫т╥О©╫ {
 	padding: 3;
 	cursor: hand;
 	height: 24;
@@ -212,7 +212,7 @@ label.╠ш╩Ха╕╬охёют╥б {
 	text-align: center;
 }
 
-input.╠ш╩Ха╕╬охёют╥б {
+input.О©╫ш╩О©╫О©╫О©╫О©╫О©╫хёО©╫т╥О©╫ {
 	border-width: 1;
 	border-style: solid;
 	font-family: fixedsys;
@@ -220,7 +220,7 @@ input.╠ш╩Ха╕╬охёют╥б {
 	height: 22;
 }
 
-input.╠ш╩Ха╕ют╥б©о╥А {
+input.О©╫ш╩О©╫О©╫О©╫О©╫т╥б©о╥О©╫ {
 	font-family: fixedsys;
 	padding: 1;
 }
@@ -229,22 +229,22 @@ input.╠ш╩Ха╕ют╥б©о╥А {
 /*******************
 *  
 ********************/
-font.©╙╩С {
+font.О©╫О©╫О©╫О©╫ {
 	color: #000080;
 	background-color: white;
 }
 
-div.Ё╩©К {
+div.О©╫О©╫О©╫О©╫ {
 	width: 640;
 	height: 400;
 	overflow: auto;
 	padding-left: 5;
 }
 
-font.╨╪╥ою╖ 	{ color: #0000FF; }
-font.╨╪╥о╬ф╥║	{ color: #000000; }
-font.╩У╠ш 		{ color: red; }
-font.а╤х╦100 	{ color: #00ff00; }
-font.цъц╣10 	{ color: #00ffff; }
-font.а╤х╦100цъц╣10
+font.О©╫О©╫О©╫О©╫О©╫О©╫ 	{ color: #0000FF; }
+font.О©╫О©╫О©╫о╬ф╥О©╫	{ color: #000000; }
+font.О©╫О©╫О©╫О©╫ 		{ color: red; }
+font.О©╫О©╫х╦100 	{ color: #00ff00; }
+font.О©╫О©╫ц╣10 	{ color: #00ffff; }
+font.О©╫О©╫х╦100О©╫О©╫ц╣10
 				{ color: #ffff00; }
